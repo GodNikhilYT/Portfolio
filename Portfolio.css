@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: rgb(15, 15, 56);*/
+    background-color: rgb(0, 0, 33);
+}
+
+/********************************************************************************************************************/
+/***********************************************NAVICATION BAR*******************************************************/
+/********************************************************************************************************************/
+.navbar {
+    display: flex;
+}
+
+.offical-name {
+    color: aliceblue;
+    margin: 12px 2px 2px 100px;
+    cursor: default;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.nav-option ul li {
+    float: left;
+    list-style: none;
+}
+
+.nav-option ul li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-option ul li a:hover{
+    color: rgb(199, 229, 255);
+}
+.nav-option ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-option ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(199, 229, 255);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-option {
+    padding-left: 38%;
+    padding-top: 42px;
+}
+
+#logo-write-01 {
+    font-size: 60px;
+}
+
+#logo-write-02 {
+    font-size: 20px;
+}
+
+/********************************************************************************************************************/
+/***********************************************MAIN CONTANT*********************************************************/
+/********************************************************************************************************************/
+.ouner-name {
+    color: rgb(0, 255, 255);
+}
+
+#hello {
+    font-size: 50px;
+}
+
+.intro-duction {
+    margin: 130px 0px 0px 230px;
+    cursor: default;
+}
+
+#ouner-name-01 {
+    font-size: 28px;
+
+}
+
+#name {
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.About-for-me {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 170, 255);
+}
+
+.ouner-image img {
+    width: 350px;
+    height: 490px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+.ouner-image {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.view-data {
+    display: flex;
+}
+
+/********************************************************************************************************************/
+/***********************************************SOCIAL MEDIA*********************************************************/
+/********************************************************************************************************************/
+.social-menu ul {
+    position: absolute;
+    top: 72%;
+    left: 37%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover {
+    color: #fff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #E4405F;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #0077b5;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #1877F2;
+}
+
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #00acee;
+}
+
+.social-menu ul li:nth-child(6) a:hover {
+    background-color: #0088cc;
+}
+
+.social-menu ul li:nth-child(7) a:hover {
+    background-color: #CD201F;
+}
+
+/********************************************************************************************************************/
+/************************************************Animation styles****************************************************/
+/********************************************************************************************************************/
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    opacity: 0;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+/********************************************************************************************************************/
+/************************************************DOWNLOAD CV*********************************************************/
+/********************************************************************************************************************/
+#Download-CV a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#Download-CV {
+    border: none;
+    background-color: #0077b5;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 2px 2px 4px black;
+    position: absolute;
+    top: 85%;
+    left: 32%;
+    display: flex;
+    border-radius: 25px;
+}
+
+#Download-CV:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px rgb(207, 207, 207);
+}

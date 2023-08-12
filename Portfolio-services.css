@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(15, 15, 56);
+
+}
+
+.Services-nav p {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #000000;
+    color: aliceblue;
+    font-size: 12vh;
+    cursor: default;
+}
+
+.sect-01 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    opacity: 0;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.sect-02 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.Web-Design {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+    padding: 4px;
+}
+
+.Web-Design:hover {
+    transform: scale(1.07);
+    background-color: rgba(47, 140, 145, 0.347);
+    border-radius: 15px;
+}
+
+.Web-Design p {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    font-size: 20px;
+}
+
+.Web-Design div i {
+    font-size: 40px;
+}
+
+.Web-Design div {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(136, 170, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.Web-Developer p {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    font-size: 20px;
+}
+
+.Web-Developer:hover {
+    transform: scale(1.07);
+    background-color: rgba(47, 140, 145, 0.347);
+    border-radius: 15px;
+}
+
+.Web-Developer {
+    padding: 4px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.Web-Developer div i {
+    font-size: 40px;
+}
+
+.Web-Developer div {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(136, 170, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.Software-Developer p {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    font-size: 20px;
+}
+
+.Software-Developer:hover {
+    transform: scale(1.07);
+    background-color: rgba(47, 140, 145, 0.347);
+    border-radius: 15px;
+}
+
+.Software-Developer {
+    padding: 4px;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+}
+
+.Software-Developer div i {
+    font-size: 40px;
+}
+
+.Software-Developer div {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(136, 170, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.Graphics-Design:hover {
+    transform: scale(1.07);
+    background-color: rgba(47, 140, 145, 0.347);
+    border-radius: 15px;
+}
+
+.Graphics-Design p {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    font-size: 20px;
+}
+
+.Graphics-Design {
+    padding: 4px;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Graphics-Design div i {
+    font-size: 40px;
+}
+
+.Graphics-Design div {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(136, 170, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.Freelanceing p {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    font-size: 20px;
+}
+
+.Freelanceing:hover {
+    transform: scale(1.07);
+    background-color: rgba(47, 140, 145, 0.347);
+    border-radius: 15px;
+}
+
+.Freelanceing {
+    padding: 4px;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+}
+
+.Freelanceing div i {
+    font-size: 40px;
+}
+
+.Freelanceing div {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(136, 170, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.Youtuber p {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    font-size: 20px;
+}
+
+.Youtuber:hover {
+    transform: scale(1.07);
+    background-color: rgba(47, 140, 145, 0.347);
+    border-radius: 15px;
+}
+
+.Youtuber {
+    padding: 4px;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+}
+
+.Youtuber div i {
+    font-size: 40px;
+}
+
+.Youtuber div {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(136, 170, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    text-decoration: none;
+    color: blueviolet;
+    font-family: Verdana, sans-serif;
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}

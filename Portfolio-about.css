@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(15, 15, 56);
+}
+
+.nav-about {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #000000;
+    color: aliceblue;
+    font-size: 12vh;
+    cursor: default;
+}
+
+.logo-png-img img {
+    height: 33rem;
+    width: 32rem;
+}
+
+.logo-png-img {
+    margin-left: 4vh;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    opacity: 0;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.contant {
+    display: flex;
+}
+
+.about-me p {
+    font-size: 45px;
+    font-family: "Audiowide", sans-serif;
+    color: aqua;
+    padding-left: 210px;
+    cursor: default;
+    text-shadow: 2px 2px 4px black;
+}
+
+.about-me-information p {
+    color: rgb(44, 165, 125);
+    /*font-family: "Trirong", serif;*/
+    font-size: 17px;
+    /*border: 2px solid black;*/
+    cursor: default;
+}
+
+#about-me-information-name {
+    font-family: cursive;
+    font-style: italic;
+    color: red;
+}
+
+.about-me-ul ul li{
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.about-me-ul ul li{
+    text-decoration: none;
+    color: blueviolet;
+    font-family:  Verdana, sans-serif;
+    text-shadow: 2px 2px 4px black;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+  
+.about-me-ul ul li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(185, 111, 255);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .about-me-ul ul li:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .hidden-div {
+    display: none;
+    padding: 20px;
+    margin: 10px;
+  }
+  .hidden-div h4{
+    color: rgb(141, 166, 255);
+    cursor: default;
+  }
+  .hidden-div p{
+    color: rgb(177, 93, 255);
+    cursor: default;
+  }
+  #hidden-div-span{
+    color: rgb(124, 0, 240);
+    font-style: italic;
+
+  }
