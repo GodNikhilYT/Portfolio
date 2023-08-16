@@ -7,6 +7,6 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     var massage = document.getElementById("massage").value;
     var Remember = document.getElementById("Remember").value;
 
-    alert("🙂Welcome, " + name + "! Your Massage was successfully submitted!");
+    alert("🙂Welcome, " + name + "! Your Message was successfully submitted!");
 
 });
