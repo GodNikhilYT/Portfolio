@@ -86,87 +86,72 @@ body {
     margin-right: 30px;
     padding-top: 6%;
 }
-
-.massage {
-    display: flex;
-}
-
-.name label {
-    font-size: 30px;
-    color: rgb(204, 253, 255);
-}
-
-.name input {
-    margin-left: 10px;
-    width: 400px;
-    height: 30px;
-    padding-left: 6px;
+input{
     background-color: transparent;
-    border: 1px solid rgb(0, 94, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
     color: white;
-
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Caveat', cursive;
 }
-
-.mail label {
-    font-size: 30px;
-    color: rgb(204, 253, 255);
+label{
+    color: white;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    text-shadow: 3px 3px 3px #000000;
 }
-
-.mail input {
-    margin-left: 10px;
-    width: 400px;
-    height: 30px;
-    padding-left: 6px;
+textarea{
     background-color: transparent;
-    border: 1px solid rgb(0, 94, 255);
     color: white;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Caveat', cursive;
+    text-shadow: 3px 3px 3px #000000;
+    width: 200px;
+    height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-.massa label {
-    font-size: 30px;
-    color: rgb(204, 253, 255);
-}
-
-.massag textarea {
-    margin-left: 10px;
-    width: 400px;
-    height: 30px;
-    padding-left: 6px;
+button{
+    color: rgb(255, 255, 255);
     background-color: transparent;
-    border: 1px solid rgb(0, 94, 255);
-    color: white;
-}
-
-.Remember label {
-    font-size: 25px;
-    color: rgb(204, 253, 255);
-}
-
-.Remember input {
-    background-color: green;
-}
-
-.submit input {
-    width: 185px;
-    height: 35px;
-    margin-left: 132px;
-    background-color: rgba(255, 158, 219, 0.27);
-    border: 1px solid #9f6e6e;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px rgb(0, 0, 0);
-    font-size: 30px;
-
-}
-
-.submit input:hover {
     border: none;
-    background-color: #9d6060;
-    transform: scale(1.07);
-    box-shadow: 2px 2px 4px rgb(0, 0, 0);
-    font-size: 30px;
+    padding: 11px 30px 11px 30px;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    box-shadow: 2px 2px 4px rgb(143, 142, 142);
+    font-family: "Dancing Script", cursive;
+    cursor: pointer;
+    margin-top: 20px;
 }
-
-
+.div4 img{
+    height: 450px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    border: 1px solid rgb(255, 210, 210);
+    border-right: none;
+    box-sizing: border-box;
+    border-bottom: none;
+    transition: width 2s, height 2s, transform 2s;
+}
+.div4 img:hover{
+ transform: scale(1.1);
+ /*transform: rotate(360deg);*/
+ cursor: pointer;
+}
+.div4{
+    margin-top: 60px;
+    margin-left: 100px;
+    overflow: hidden;
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;

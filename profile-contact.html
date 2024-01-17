@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="profile-contact.css">
-    <link rel="stylesheet" href="profile-contact.js">
     <title>profile contact</title>
 </head>
 
@@ -45,33 +44,19 @@
         </div>
         <div class="div2"></div>
         <div class="div3">
-            <form action="" id="loginForm">
-                <div class="name">
-                    <label for="name">Name&nbsp;:</label>
-                    <input type="text" id="name" name="Name:" required="required" placeholder="Type Your Name...">
-                </div><br>
-                <div class="mail">
-                    <label for="email">E-Mail:</label>
-                    <input type="email" id="email" name="E-Mail:" required="required" placeholder="Type Your email...">
-                </div><br>
-                <div class="massage">
-                    <div class="massa">
-                        <label for="massage">Message:</label>
-                    </div>
-                    <div class="massag">
-                        <textarea name="Massage:" id="massage" required="required"
-                            placeholder="Type Your massage..."></textarea>
-                    </div>
-                </div><br>
-                <div class="Remember">
-                    <label for="Remember"><b>Remember Me&nbsp;&nbsp;</b></label>
-                    <input type="checkbox" id="Remember" name="Remember Me" required="required">
-                </div><br><br>
-                <div class="submit">
-                    <input type="submit" id="submit">
-                </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f7f783e9-e115-4a89-9797-1f58dc15b962">
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="email">Email :</label>
+                <input type="email" required><br>
+                <label for="massage">Massage :</label>
+                <textarea name="Massage:" id="massage" required placeholder="Type Your massage..."></textarea><br>
+                <button type="submit">Send .</button>
             </form>
-            <script src="profile-contact.js"></script>
+        </div>
+        <div class="div4">
+            <img src="D:\web-design\Portfolio\IMG20240109134615455.jpg" alt="">
         </div>
     </section>
 </body>
